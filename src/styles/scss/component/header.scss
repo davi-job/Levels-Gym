@@ -1,14 +1,16 @@
 header {
-    position: fixed;
+    position: absolute;
     top: 0;
 
     width: 100vw;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 3.2rem 0;
 
-    padding: 3.2rem 18rem;
+    .header__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
     .header__title {
         color: var(--primary);
